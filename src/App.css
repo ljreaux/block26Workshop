@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  text-align: left;
+  gap: 4rem;
+}
+
+.body button {
+  grid-column: span 2;
+  width: fit-content;
+  
+} 
+
+.body p {
+  margin-left: 2em;
+} 
+
+tr td:hover {
+  cursor: pointer;
+  background-color: gray;
+  border-radius: 1rem;
+}
